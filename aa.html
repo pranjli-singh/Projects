@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>COSMOS QUIZ!</title>
+<link href ="cc.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Fondamento:ital@1&family=Lobster&family=Merriweather&display=swap" rel="stylesheet">
+<script src = "bb.js"></script>
+
+<style>
+body {
+  background-image: url('ooo.jpg');
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+</head>
+
+
+<body>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p style="color:white" class = "questions" >The planet that has no moons?</p>
+<input type = "radio" id = "mc" name = "question1" value = "Mars"><label for="question1" style="color:white;"> Mars</label><br>
+<input type = "radio" id = "mc" name = "question1" value = "Venus"><label for="question1" style="color:white;"> Venus</label><br>
+
+<p style="color:white" class = "questions">Which mission landed first man on moon?</p>
+<input type = "radio" id = "mc" name = "question2" value = "Apollo 11"><label for="question2" style="color:white;"> Apollo 11</label><br>
+<input type = "radio" id = "mc" name = "question2" value = "Voyager 1"><label for="question2" style="color:white;"> Voyager 1</label><br>
+
+<p style="color:white" class = "questions">What is the name of our nearest galaxy?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "Andromeda"><label for="question3" style="color:white;"> Andromeda</label><br>
+<input type = "radio" id = "mc" name = "question3" value = "Canis Major"><label for="question3" style="color:white;">Canis Major</label><br>
+
+<p style="color:white"  class = "questions">Which planet has the largest volcano in our solar system?</p>
+<input type = "radio" id = "mc" name = "question4" value = "Jupiter"><label for="question4" style="color:white;"> Jupiter</label><br>
+<input type = "radio" id = "mc" name = "question4" value = "Venus"><label for="question4" style="color:white;">Venus </label><br>
+
+<p style="color:white" class = "questions">Which is the largest object in the asteroid belt between Mars and Jupiter?</p>
+<input type = "radio" id = "mc" name = "question5" value = "Ceres"><label for="question5" style="color:white;"> Ceres</label><br>
+<input type = "radio" id = "mc" name = "question5" value = "Eris"><label for="question5" style="color:white;">Eris</label> <br>
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</html>
+
+</body>
